@@ -1,0 +1,80 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_opengl3.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  entrypoint.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=' : conversion de 'wchar_t' en 'char', perte possible de données
+  (compiler le fichier source 'entrypoint.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      le contexte d’instanciation du modèle (le plus ancien) est
+          C:\Users\gaming\Desktop\fortnite-external-b20db2b1ad01671617b7c563d3eceef10a301b17\core\sdk\functions.h(110,27):
+          voir la référence à l'instanciation de la fonction modèle 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' en cours de compilation
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\gaming\Desktop\fortnite-external-b20db2b1ad01671617b7c563d3eceef10a301b17\core\sdk\functions.h(110,27):
+              voir la première référence à « std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string » dans « decryption_t::decrypt_platform »
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          voir la référence à l'instanciation de la fonction modèle 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' en cours de compilation
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          voir la référence à l'instanciation de la fonction modèle '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' en cours de compilation
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=' : conversion de 'char16_t' en 'char', perte possible de données
+  (compiler le fichier source 'entrypoint.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      le contexte d’instanciation du modèle (le plus ancien) est
+          C:\Users\gaming\Desktop\fortnite-external-b20db2b1ad01671617b7c563d3eceef10a301b17\core\sdk\functions.h(147,24):
+          voir la référence à l'instanciation de la fonction modèle 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' en cours de compilation
+          with
+          [
+              _Elem=char16_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<char16_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\gaming\Desktop\fortnite-external-b20db2b1ad01671617b7c563d3eceef10a301b17\core\sdk\functions.h(147,6):
+              voir la première référence à « std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string » dans « decryption_t::decrypt_username »
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          voir la référence à l'instanciation de la fonction modèle 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<char16_t*,char16_t*,_Size_type>(_Iter,const _Sent,_Size)' en cours de compilation
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=char16_t *,
+              _Sent=char16_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          voir la référence à l'instanciation de la fonction modèle '_OutIt *std::_Copy_n_unchecked4<char16_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' en cours de compilation
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=char16_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 2361 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  fortnite.vcxproj -> C:\Users\gaming\Desktop\fortnite-external-b20db2b1ad01671617b7c563d3eceef10a301b17\x64\Release\fortnite.exe
